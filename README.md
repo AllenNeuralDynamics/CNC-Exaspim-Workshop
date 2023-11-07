@@ -1,3 +1,3 @@
-# aind-capsule-template
+# AIND - UW CNC ExaSPIM Workshop
 
-Basic structure of a capsule to be customized as needed.
+Data and notebooks for the Hackacollabathon on December 6, 2023
