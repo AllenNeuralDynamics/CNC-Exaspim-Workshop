@@ -1,5 +1,6 @@
 metadata_version: 1
 name: AIND CNC ExaSPIM Workshop
-description: Basic structure of a capsule to be customized as needed.
+description: Tutorial notebooks for exploring AIND ExaSPIM data.
 authors:
-- name: AIND
+- name: Saskia de Vries
+- name:
