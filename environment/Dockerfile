@@ -1,4 +1,4 @@
-# hash:sha256:26e49376d53ef3aece4af647b6e8085b974d7f67766b2eb5136de229dfd84495
+# hash:sha256:b78cb4ff72f5545d922e73322bc84ef46ff461255eb8fa55b5bbe58603891d62
 FROM registry.codeocean.allenneuraldynamics.org/codeocean/jupyterlab:3.0.9-miniconda4.9.2-python3.8-ubuntu20.04
 
 ARG DEBIAN_FRONTEND=noninteractive
@@ -13,5 +13,7 @@ RUN conda install -y \
 
 RUN pip install -U --no-cache-dir \
     matplotlib==3.7.3 \
+    networkx==3.1 \
     numpy==1.23.5 \
-    pandas==2.0.3
+    pandas==2.0.3 \
+    scipy==1.10.1
