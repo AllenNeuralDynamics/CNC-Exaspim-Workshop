@@ -1,4 +1,4 @@
-# hash:sha256:ad628c7839f0b0cfa1754c2e671b222b9e5d32efb8901ab368922f532d02927f
+# hash:sha256:3466547951bdaf01ca508fc4c48591fa46d12c5f76c059da127e33ca31468251
 FROM registry.codeocean.allenneuraldynamics.org/codeocean/mambaforge3:23.1.0-4-python3.10.12-ubuntu22.04
 
 ARG DEBIAN_FRONTEND=noninteractive
@@ -17,4 +17,6 @@ RUN pip3 install -U \
     numpy==1.26.2 \
     pandas==2.1.3 \
     scikit-learn==1.3.2 \
-    scipy==1.11.4
+    scipy==1.11.4 \
+    tqdm==4.66.1 \
+    umap-learn==0.5.5
