@@ -2,5 +2,6 @@ metadata_version: 1
 name: AIND CNC ExaSPIM Workshop
 description: Tutorial notebooks for exploring AIND ExaSPIM data.
 authors:
+- name: Cameron Arshadi
+- name: Judith Baka
 - name: Saskia de Vries
-- name:
