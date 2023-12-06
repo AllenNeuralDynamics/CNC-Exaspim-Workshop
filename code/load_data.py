@@ -52,7 +52,7 @@ def load_mouselight(neuron_id):
         DataFrame of the axon annotations
     """
     
-    tracing_path = r'/data/neuron_tracings/mouselight'
+    tracing_path = '../data/mouselight_reconstructions'
     file_path = os.path.join(tracing_path, neuron_id+'.json')
     with open(file_path) as json_data:
         d = json.load(json_data)
